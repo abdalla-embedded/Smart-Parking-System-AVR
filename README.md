@@ -1,27 +1,33 @@
-Smart Parking System using AVR ATmega32
-Overview
+# Smart Parking System using AVR ATmega32
 
-A smart parking system developed using AVR ATmega32 following a layered architecture (MCAL / HAL / APP). The system detects vehicle entry and exit using ultrasonic sensors, controls two servo gates, displays available parking slots on an LCD, and activates a buzzer when the parking becomes full.
+## Overview
 
-Features
-Two HC-SR04 Ultrasonic Sensors
-Two Servo Motors
-LCD 16x2 Display
-Parking Slot Counter
-Full Parking Detection
-Buzzer Alert
-Layered Architecture
-Timer0 Driver
-Timer1 PWM Driver
-GPIO Driver
-Embedded C
-Hardware
-ATmega32
-2 × HC-SR04
-2 × Servo Motors
-LCD 16x2
-Buzzer
-Software
-Embedded C
-Microchip Studio
-Proteus
+A Smart Parking System developed using AVR ATmega32 using Layered Architecture (MCAL / HAL / APP).
+
+The system uses two ultrasonic sensors to detect vehicle entry and exit, controls two servo motors as gates, displays the available parking spaces on an LCD, and activates a buzzer when the parking is full.
+
+## Features
+
+- Two HC-SR04 Ultrasonic Sensors
+- Two Servo Motors
+- LCD 16x2
+- Buzzer
+- Parking Slot Counter
+- Layered Architecture
+- Embedded C
+- Timer0 Driver
+- Timer1 PWM Driver
+
+## Hardware
+
+- ATmega32
+- HC-SR04 ×2
+- Servo Motor ×2
+- LCD 16x2
+- Buzzer
+
+## Software
+
+- Microchip Studio
+- Proteus
+- Embedded C
